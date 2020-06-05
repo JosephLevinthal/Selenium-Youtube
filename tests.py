@@ -15,3 +15,8 @@ driver.maximize_window()
 website = 'https://youtube.com.br'
 driver.get(website)
 
+# Access trending page
+time.sleep(3)
+website = 'https://www.youtube.com/feed/trending'
+driver.get(website)
+
